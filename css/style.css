@@ -1,0 +1,123 @@
+.bgTest {
+    background-color: green;
+    border: 1px solid #000;
+}
+
+.testingPadding {
+    padding: 0 auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #373737;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.container-flex {
+    background-color: #F4F4F4;
+    padding-bottom: 35px;
+}
+
+.card {
+    border: 0;  
+}
+
+/* Features Titles */
+h2.card-title {
+    font-size: 28px;
+    font-weight: 900;
+    color: #ff9d00;
+}
+
+h6.card-subtitle {
+    font-size: 16px;
+}
+
+h4.card-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+p.card-text {
+    font-size: 14px;
+    font-weight: 200;
+}
+.card-img-top {
+    max-width: 350px;
+    max-height: 270px;
+}
+
+.cardHorizontal {
+    display: flex;
+    flex: 1 1 auto;
+    min-height: 173px;
+}
+
+/* Section 3 */
+
+.ourProductsTitle {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+h5.card-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.moreInfo {
+    font-size: 15px;
+    font-weight: 600;
+    color: #aeaeae;
+    background-color: #fff;
+    border: 1px solid #9b9b9b;
+}
+
+.moreInfo:hover {
+    background-color: lightgrey;
+    color: #373737;
+}
+
+.moreInfo:focus {
+    outline: 0;
+}
+
+.getPrice {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff9d00;
+    border: 0;
+}
+
+.getPrice:hover {
+    background-color: #db8905;
+}
+
+.getPrice:focus {
+    outline: 0;
+}
+
+@media (max-width: 990px) {
+    h2.card-title {
+        font-size: 24px;
+    }
+    
+    .cardHorizontal {
+        min-height: 133px;
+    }
+
+    .ourProductsTitle {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    h5.card-title {
+        font-size: 16px;
+    }
+}
